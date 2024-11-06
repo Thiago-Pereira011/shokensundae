@@ -1,0 +1,187 @@
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #37A554;
+}
+
+.main-menu .navbar-default .navbar-nav .active a{
+    color: #37A554;
+}
+
+.main-menu nav li a::after {
+    background: #37A554;
+}
+
+.typer{
+    color: #37A554 !important;
+}
+
+.banner-text h2{
+    color: #37A554;
+}
+
+.book-btn a{
+    background: #37A554;
+    border: 3px solid #37A554;
+}
+
+.book-btn a:hover{
+    border: 3px solid #2C8C3C; /* tom mais suave de verde */
+}
+
+.hvr-underline-from-center::before{
+    background: #2C8C3C;
+}
+
+.block-title{
+    color: #37A554;
+}
+
+.item-type-zoom .item-hover:hover::before{
+    background: rgba(55, 165, 84, 0.5); /* tom mais suave de verde */
+}
+
+.special-box .owl-theme .owl-controls .owl-page.active span{
+    background: #37A554;
+}
+
+.offer-item div h3{
+    color: #37A554;
+}
+
+.tab-menu .is-active{
+    background: #37A554;
+}
+
+.tab-menu .slick-arrow.slick-prev{
+    background: #37A554 url(../../images/back.png) no-repeat center;
+    background-position: 2px 4px;
+}
+
+.tab-menu .slick-arrow.slick-next{
+    background: #37A554 url(../../images/next.png) no-repeat center;
+    background-position: 7px 4px;
+}
+
+.offer-item .offer-price{
+    border: 1px solid #37A554;
+}
+
+.sf-team:hover .text-col{
+    background-color: #37A554;
+}
+
+.gal-item a::after{
+    background-color: rgba(55, 165, 84, 0.75); /* tom mais suave de verde */
+}
+
+.overlay i:hover{
+    border: 1px solid #37A554;
+    color: #37A554;
+}
+
+.blog-btn-v a{
+    background: #37A554;
+    border: 3px solid #37A554;
+}
+
+.book-srv a{
+    background: #37A554;
+    border: 3px solid #37A554;
+}
+
+.panel-pricing .panel-heading{
+    background: #37A554;
+}
+
+.panel-pricing{
+    border: 1px solid #37A554;
+}
+
+.panel-body p strong span{
+    color: #37A554;
+}
+
+.pricing-main .panel-footer a{
+    background: #37A554;
+    border: 3px solid #37A554;
+}
+
+.pricing-main .panel-footer a:hover{
+    border: 3px solid #2C8C3C;
+}
+
+.reserve-book-btn button{
+    background: #37A554;
+    border: 3px solid #37A554;
+}
+
+.reserve-book-btn button:hover a{
+    color: #000000;
+}
+
+.footer-news form a{
+    background: #37A554;
+}
+
+.footer-news form a:hover{
+    border: 2px dotted #37A554;
+}
+
+.footer-box-a h3{
+    color: #37A554;
+}
+
+.footer-box-b h3{
+    color: #37A554;
+}
+
+.footer-box-c h3{
+    color: #37A554;
+}
+
+.footer-box-d h3{
+    color: #37A554;
+}
+
+.footer-box-c p a:hover{
+    color: #37A554;
+}
+
+.footer-box-b ul li a:hover{
+    color: #37A554;
+}
+
+.footer-box .socials-box a:hover .social-circle-border{
+    color: #37A554;
+}
+
+.footer-box-c p i{
+    color: #37A554;
+}
+
+.copyright-main{
+    background: #37A554;
+}
+
+#color-panel a.panel-button:hover{
+    color: #37A554;		
+}
+
+textarea {
+    resize: none;
+}
+
+.purple-bg {
+    background-color: #6c1bb3; /* Não alterado */
+}
+
+.red-w-bg {
+    background-color: #FA0A35; /* Não alterado */
+}
+
+.blue-bg {
+    background-color: #0AB4FA; /* Não alterado */
+}
+
+.yellow-bg {
+    background-color: #37A554; /* Não alterado */
+}
