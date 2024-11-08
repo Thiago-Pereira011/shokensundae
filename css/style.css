@@ -262,9 +262,7 @@ body {
     HEADER AREA
 -------------------------------------------------------------------*/
 
-#site-header {}
 
-#header {}
 
 .logo {
     float: left;
@@ -278,7 +276,7 @@ body {
     left: 0;
 }
 
-.main-menu {}
+ 
 
 .header-block-top .navbar-brand {
     margin: 0 !important;
@@ -557,15 +555,13 @@ body {
         transform: translate3d(-50%, 20px, 0);
         opacity: 0;
     }
+}
 
-    @media (min-width: 768px) {
-        from {
-            -webkit-transform: translate(-50%, 0);
-            -webkit-transform: translate3d(-50%, 0, 0);
-            transform: translate(-50%, 0);
-            transform: translate3d(-50%, 0, 0);
-            opacity: 1;
-        }
+@media screen and (min-width: 768px) {
+    .elemento {
+        animation: scrollWheel 1s ease-out forwards;
+    }
+}
 
         to {
             -webkit-transform: translate(-50%, 40px);
@@ -574,8 +570,6 @@ body {
             transform: translate3d(-50%, 40px, 0);
             opacity: 0;
         }
-    }
-}
 
 @keyframes scrollWheel {
     from {
@@ -593,6 +587,7 @@ body {
         transform: translate3d(-50%, 20px, 0);
         opacity: 0;
     }
+}
 
     @media (min-width: 768px) {
         from {
@@ -611,7 +606,6 @@ body {
             opacity: 0;
         }
     }
-}
 
 /*------------------------------------------------------------------
     ABOUT AREA
@@ -842,7 +836,6 @@ body {
 -------------------------------------------------------------------*/
 
 
-.menu-main {}
 
 .menu-main .title-caption {
     color: #666;
@@ -1088,7 +1081,7 @@ body {
     GALLERY AREA
 -------------------------------------------------------------------*/
 
-.gallery-main {}
+
 
 .gallery-main .title-caption {
     color: #666;
@@ -1382,9 +1375,10 @@ body {
 }
 
 .panel-pricing {
-    -moz-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    -webkit-transition: all .3s ease;
+    -webkit-transition: all 0.3s ease;  /* Safari e Chrome antigos */
+    -moz-transition: all 0.3s ease;     /* Firefox antigo */
+    -o-transition: all 0.3s ease;       /* Opera antigo */
+    transition: all 0.3s ease;          /* Navegadores modernos */
 }
 
 .panel-pricing:hover {
@@ -1486,12 +1480,7 @@ body {
     margin-top: -8px;
 }
 
-.panel-pricing:hover
-/*------------------------------------------------------------------
-    RESERVATIONS AREA
--------------------------------------------------------------------*/
 
-.reservations-main {}
 
 .form-reservations-box {
     width: 70%;
@@ -1636,7 +1625,7 @@ select:focus,
     FOOTER AREA
 -------------------------------------------------------------------*/
 
-.footer-main {}
+
 
 .footer-news {
     background: url(../images/newsletter-bg.jpg) no-repeat center;
