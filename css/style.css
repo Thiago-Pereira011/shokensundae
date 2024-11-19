@@ -276,7 +276,7 @@ body {
     left: 0;
 }
 
- 
+
 
 .header-block-top .navbar-brand {
     margin: 0 !important;
@@ -396,7 +396,7 @@ body {
 -------------------------------------------------------------------*/
 
 .banner {
-    background: url(../images/banner.jpg) no-repeat center top;
+    background: url(../images/b.jpeg) no-repeat center top;
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
@@ -563,13 +563,13 @@ body {
     }
 }
 
-        to {
-            -webkit-transform: translate(-50%, 40px);
-            -webkit-transform: translate3d(-50%, 40px, 0);
-            transform: translate(-50%, 40px);
-            transform: translate3d(-50%, 40px, 0);
-            opacity: 0;
-        }
+to {
+    -webkit-transform: translate(-50%, 40px);
+    -webkit-transform: translate3d(-50%, 40px, 0);
+    transform: translate(-50%, 40px);
+    transform: translate3d(-50%, 40px, 0);
+    opacity: 0;
+}
 
 @keyframes scrollWheel {
     from {
@@ -589,23 +589,23 @@ body {
     }
 }
 
-    @media (min-width: 768px) {
-        from {
-            -webkit-transform: translate(-50%, 0);
-            -webkit-transform: translate3d(-50%, 0, 0);
-            transform: translate(-50%, 0);
-            transform: translate3d(-50%, 0, 0);
-            opacity: 1;
-        }
-
-        to {
-            -webkit-transform: translate(-50%, 40px);
-            -webkit-transform: translate3d(-50%, 40px, 0);
-            transform: translate(-50%, 40px);
-            transform: translate3d(-50%, 40px, 0);
-            opacity: 0;
-        }
+@media (min-width: 768px) {
+    from {
+        -webkit-transform: translate(-50%, 0);
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate(-50%, 0);
+        transform: translate3d(-50%, 0, 0);
+        opacity: 1;
     }
+
+    to {
+        -webkit-transform: translate(-50%, 40px);
+        -webkit-transform: translate3d(-50%, 40px, 0);
+        transform: translate(-50%, 40px);
+        transform: translate3d(-50%, 40px, 0);
+        opacity: 0;
+    }
+}
 
 /*------------------------------------------------------------------
     ABOUT AREA
@@ -1375,10 +1375,14 @@ body {
 }
 
 .panel-pricing {
-    -webkit-transition: all 0.3s ease;  /* Safari e Chrome antigos */
-    -moz-transition: all 0.3s ease;     /* Firefox antigo */
-    -o-transition: all 0.3s ease;       /* Opera antigo */
-    transition: all 0.3s ease;          /* Navegadores modernos */
+    -webkit-transition: all 0.3s ease;
+    /* Safari e Chrome antigos */
+    -moz-transition: all 0.3s ease;
+    /* Firefox antigo */
+    -o-transition: all 0.3s ease;
+    /* Opera antigo */
+    transition: all 0.3s ease;
+    /* Navegadores modernos */
 }
 
 .panel-pricing:hover {
@@ -1628,7 +1632,7 @@ select:focus,
 
 
 .footer-news {
-    background: url(../images/newsletter-bg.jpg) no-repeat center;
+    background: url(../images/oi.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
@@ -1736,9 +1740,9 @@ select:focus,
 }
 
 .footer-box {
-    background-image: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.87) 100%), url(..images/footer_background.jpg);
-    background-image: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.87) 100%), url(../images/footer_background.jpg);
-    background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.87) 100%), url(../images/footer_background.jpg);
+    background-image: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.87) 100%), url(..images/back1.jpeg);
+    background-image: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.87) 100%), url(../images/back1.jpeg);
+    background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.87) 100%), url(../images/back1.jpeg);
     background-color: #111;
     background-position: center;
     background-repeat: no-repeat;
