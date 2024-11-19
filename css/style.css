@@ -396,7 +396,7 @@ body {
 -------------------------------------------------------------------*/
 
 .banner {
-    background: url(../images/b.jpeg) no-repeat center top;
+    background: url(../images/banner.jpg) no-repeat center top;
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
