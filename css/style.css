@@ -289,6 +289,7 @@ body {
 
 .main-menu .navbar-default {
     background-color: transparent;
+    text-align: justify;
 }
 
 .main-menu .navbar {
@@ -296,6 +297,7 @@ body {
     border-radius: 0px;
     border: none;
     margin: 0px;
+    text-align: justify;
 }
 
 .main-menu nav .navbar-header .navbar-brand {
@@ -304,6 +306,7 @@ body {
 
 .main-menu .navbar-default .navbar-nav li a {
     color: #fff;
+    text-align: justify;
 }
 
 .main-menu nav li a {
@@ -318,6 +321,7 @@ body {
     transition: color 0.4s;
     font-weight: 500;
     font-size: 14px;
+    text-align: justify;
 }
 
 .main-menu nav li a::after,
@@ -334,6 +338,7 @@ body {
     transform-origin: center left;
     -webkit-transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
     transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+    text-align: justify;
 }
 
 
@@ -342,17 +347,20 @@ body {
     background: #b5b5b5;
     -webkit-transition-delay: 0.4s;
     transition-delay: 0.4s;
+    text-align: justify;
 }
 
 .main-menu nav li.active a::before {
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
+    text-align: justify;
 }
 
 .main-menu nav li.active a::after,
 .main-menu nav li.active a::before {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
+    text-align: justify;
 }
 
 .main-menu nav li a:hover::before,
@@ -361,10 +369,12 @@ body {
     transform: scale3d(1, 1, 1);
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
+    text-align: justify;
 }
 
 .main-menu .navbar-default .navbar-nav .active a {
     background-color: transparent;
+    text-align: justify;
 }
 
 .fixed-menu {
@@ -377,18 +387,22 @@ body {
     transition: 0.5s;
     padding: 10px 0 0 0;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
 }
 
 .fixed-menu .navbar-brand {
     padding: 10px 0 10px;
+    text-align: justify;
 }
 
 .fixed-menu .navbar-brand>img {
     max-width: 150px;
+    text-align: justify;
 }
 
 .fixed-menu .main-menu nav li a {
     padding: 32px 0px 10px 0;
+    text-align: justify;
 }
 
 /*------------------------------------------------------------------
@@ -613,6 +627,7 @@ to {
 
 .about-main {
     background: #E6E6E6;
+    text-align: justify;
 }
 
 .pad-top-100 {
@@ -678,6 +693,7 @@ to {
     position: absolute;
     top: 0;
     right: 0;
+    text-align: justify;
 }
 
 
@@ -953,6 +969,7 @@ to {
     background-attachment: fixed;
     background-size: cover;
     position: relative;
+    text-align: justify;
 }
 
 .team-main:before {
@@ -1046,7 +1063,7 @@ to {
 
 .sf-team:hover .team-social li a {
     border: 1px solid rgba(0, 0, 0, 0);
-    background: #fff;
+    background: #ffffff;
     color: #222;
     transition: all 0.5s ease-in;
     -moz-transition: all 0.5s ease-in;
@@ -1772,8 +1789,8 @@ select:focus,
     width: 25px;
     border-radius: 50%;
     background-color: transparent;
-    color: #6f6f6f;
-    text-align: center;
+    color: #636161;
+    text-align: justify;
 }
 
 
@@ -1875,7 +1892,7 @@ select:focus,
 }
 
 .footer-box-d ul li span {
-    color: #666;
+    color: #656464;
 }
 
 /*------------------------------------------------------------------
